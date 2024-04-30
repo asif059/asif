@@ -76,8 +76,8 @@ nav li a{
     background-image: url('../assets/images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: 45%;
+    background-size: 50%;
 }
 .profile-pic{
-    max-width: 60%;
+    max-width: 58%;
 }
