@@ -39,6 +39,18 @@ nav li a{
     font-weight: 700;
     font-size: 15px;
 }
+.btn-primary:hover{
+    background: #FFFFFF;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    transition: 0.2s;
+}
+.btn-primary-1:hover{
+    background: #FD6E0A;
+    border: 0;
+    color: #FFFFFF;
+    transition: 0.2s;
+}
 .btn-primary-1{
     border: 1px solid #FD6E0A;
     background: #FFFFFF;
