@@ -8,7 +8,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2% 10%;
+    padding: 2% 13%;
 }
 nav h1{
     font-size: 50px;
@@ -66,30 +66,46 @@ nav li a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0% 2% 0% 10%;
+    padding: 0% 2% 0% 13%;
 }
 .banner-content{
     max-width: 530px;
 }
 .banner-greetings{
     color: #474747;
-    font-size: 45px;
+    font-size: 42px;
 }
 .banner-title{
-    font-size: 85px;
+    font-size: 82px;
 }
 .banner-description{
     color: #757575;
-    font-size: 18px;
+    font-size: 16px;
     margin: 20px 0px;
 }
 .header{
+    height: 620px;
+    width: 100%;
     background: #FFF8F3;
-    background-image: url('../assets/images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 50%;
+    background-image: url('../assets/images/header_bg.png'),url('../assets/images/developer.png');
+    background-repeat: no-repeat,no-repeat;
+    background-position-x: right,3%;
+    background-size: 50%,5.5%;
+    background-position-y: bottom,center;
 }
 .profile-pic{
     max-width: 58%;
+}
+.about-content{
+    background: #FFF8F3;;
+    padding: 15% 10%;
+}
+.about-title{
+    text-align: center;
+    font-size: 30px;
+}
+#about-description{
+    color: #757575;
+    text-align: center;
+    margin: 3% 18%;
 }
