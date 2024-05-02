@@ -128,19 +128,30 @@ nav li a{
     display: flex;
     justify-content: space-between;
     padding: 3% 15%;
-}
-.skill-all{
-    margin: 0% 5%;
-}
-.skill-icon{
-
+    gap: 12%;
 }
 .skill-title{
-
     margin: 10% 0%;
 }
 .skill-description{
-
     color: #757575;
     font-size: 13px;
+}
+.resume-container{
+
+}
+.resume-all{
+
+}
+.resume-title{
+
+}
+.resume-degree{
+
+}
+.resume-year{
+
+}
+.resume-description{
+
 }
